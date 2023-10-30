@@ -1,0 +1,60 @@
+body {
+    font-family: Poppins, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav {
+    margin-top: 58px;
+}
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.nav .container {
+    display: flex;
+}
+
+.nav .brand {
+    width: 20%;
+}
+.nav .menu {
+    width: 60%;
+}
+
+.nav .menu .menu-list {
+    color : #000;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.nav .menu-list-active {
+    opacity: 1;
+    font-weight: 600;
+}
+
+
+
+.nav .cties {
+    width : 20%;
+}
+
+.nav .brand {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* .nav .menu .menu-list {
+    margin: 0 20px;
+} */
+.nav .cties{
+    text-align: right;
+}
+.nav .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
